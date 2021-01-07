@@ -1,1 +1,6 @@
-debug: true
+server:
+  port: 9092
+
+spring:
+  mvc:
+    logRequestDetails: true
