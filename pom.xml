@@ -11,10 +11,10 @@
     <modules>
         <module>spring-boot-lean1</module>
         <module>spring-boot-common</module>
-        <module>spring-boot-len-logback</module>
     </modules>
     <properties>
         <spring.boot.version>2.3.3.RELEASE</spring.boot.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencyManagement>
         <dependencies>

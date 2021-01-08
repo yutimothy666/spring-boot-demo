@@ -1,4 +1,4 @@
-package com.timothy.lean1.common.config;
+package com.timothy.common.config;
 
 import java.io.Serializable;
 import java.util.HashMap;

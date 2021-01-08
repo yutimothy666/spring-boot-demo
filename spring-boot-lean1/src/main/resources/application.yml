@@ -5,3 +5,5 @@ spring:
     logRequestDetails: true
   application:
     name: spring-boot-lean
+  profiles:
+    active: '@profiles.active@'
