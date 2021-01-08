@@ -1,4 +1,4 @@
-package com.timothy.common.bean;
+package com.timothy.lean1.common.bean;
 
 import lombok.Data;
 

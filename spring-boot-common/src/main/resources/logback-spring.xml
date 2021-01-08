@@ -13,7 +13,7 @@
 
     <!-- 彩色日志 -->
     <!-- 彩色日志依赖的渲染类 -->
-    <conversionRule conversionWord="ip" converterClass="com.timothy.common.config.IPAddressConverter"/>
+    <conversionRule conversionWord="ip" converterClass="com.timothy.common.IPAddressConverter"/>
     <conversionRule conversionWord="clr" converterClass="org.springframework.boot.logging.logback.ColorConverter"/>
     <conversionRule conversionWord="wex"
                     converterClass="org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverter"/>
