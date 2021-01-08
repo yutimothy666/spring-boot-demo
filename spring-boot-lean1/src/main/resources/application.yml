@@ -1,6 +1,7 @@
 server:
   port: 9092
-
 spring:
   mvc:
     logRequestDetails: true
+  application:
+    name: spring-boot-lean

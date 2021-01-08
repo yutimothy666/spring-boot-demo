@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="016685f1-a48b-40b5-af9d-8f70f2396ae9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-boot-common/src/main/java/com/timothy/common/component/PingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-common/src/main/java/com/timothy/common/component/ShowIPPortRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-common/src/main/java/com/timothy/common/config/IPAddressConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-common/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common/target/classes/com/timothy/common/config/AjaxResults.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/target/classes/com/timothy/common/config/AjaxResults.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common/target/spring-boot-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/target/spring-boot-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-lean1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-lean1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-lean1/src/main/java/com/timothy/SpringBootLean1.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-lean1/src/main/java/com/timothy/lean1/SpringBootLean1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-lean1/src/main/java/com/timothy/config/Lean1Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-lean1/src/main/java/com/timothy/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-lean1/src/main/java/com/timothy/lean1/controller/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-lean1/src/main/java/com/timothy/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-lean1/src/main/java/com/timothy/lean1/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-lean1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-lean1/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-lean1/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-lean1/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-lean1/target/classes/com/timothy/SpringBootLean1$PingTestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-lean1/target/classes/com/timothy/SpringBootLean1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-lean1/target/classes/com/timothy/controller/TestController.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1mllEgJPIy2rXtTW8LlCR6gYg51" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="15" />
+    <property name="RequestMappingsPanelWidth1" value="15" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-boot-common/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.44367817" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.timothy.lean1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\codeLean\javaLean\spring-boot-demo\spring-boot-common\src\main\resources" />
+      <recent name="D:\codeLean\javaLean\spring-boot-demo\spring-boot-common\src\main\java\com\timothy\common\config" />
+      <recent name="D:\codeLean\javaLean\spring-boot-demo\spring-boot-len-logback\src\main\resources" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.timothy.common.config" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SpringBootLean1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-lean1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.timothy.lean1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.timothy.lean1.SpringBootLean1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SpringBootLean1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="016685f1-a48b-40b5-af9d-8f70f2396ae9" name="Default Changelist" comment="" />
+      <created>1610075948451</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610075948451</updated>
+      <workItem from="1610075953961" duration="4924000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="503" y="328" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1610082041271">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="503" y="328" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1610082041271" />
+    <state x="523" y="266" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1610081234815">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="523" y="266" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1610081234815" />
+    <state x="523" y="283" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1610081239217">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="523" y="283" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1610081239217" />
+    <state width="1493" height="265" key="GridCell.Tab.0.bottom" timestamp="1610086873618">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610086873618" />
+    <state width="1493" height="265" key="GridCell.Tab.0.center" timestamp="1610086873618">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610086873618" />
+    <state width="1493" height="265" key="GridCell.Tab.0.left" timestamp="1610086873618">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610086873618" />
+    <state width="1493" height="265" key="GridCell.Tab.0.right" timestamp="1610086873618">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610086873618" />
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1610086873618">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610086873618" />
+    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1610086873618">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1610086873618" />
+    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1610086873618">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1610086873618" />
+    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1610086873618">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1610086873618" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1610080955706">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1610080955706" />
+    <state x="217" y="30" key="RollbackChangesDialog" timestamp="1610079808501">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="217" y="30" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1610079808501" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1610086220200">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1610086220200" />
+    <state x="401" y="0" key="new project wizard" timestamp="1610081296600">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="401" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1610081296600" />
+  </component>
+</project>
