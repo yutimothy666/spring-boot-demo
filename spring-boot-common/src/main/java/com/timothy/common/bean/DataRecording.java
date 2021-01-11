@@ -1,4 +1,4 @@
-package com.timothy.lean1.common.bean;
+package com.timothy.common.bean;
 
 import lombok.Data;
 
@@ -9,5 +9,5 @@ import lombok.Data;
  */
 @Data
 public class DataRecording {
-
+    
 }

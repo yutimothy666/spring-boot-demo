@@ -1,5 +1,6 @@
 package com.timothy.lean1.controller;
 
+import com.timothy.common.config.AjaxResults;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -11,5 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/test")
 public class TestController {
-    
+    @RequestMapping(value = {"", "/"})
+    public AjaxResults<String> test() {
+        return AjaxResults.success("test");
+    }
 }

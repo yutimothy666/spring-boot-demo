@@ -17,8 +17,8 @@ import java.util.stream.IntStream;
  * @Version 1.0
  */
 @CrossOrigin
-@RequestMapping("/blog")
 @RestController
+@RequestMapping("/blog")
 public class BlogController {
 
     @RequestMapping(value = {"", "/"})

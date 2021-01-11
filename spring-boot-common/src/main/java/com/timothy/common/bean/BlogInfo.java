@@ -1,6 +1,5 @@
 package com.timothy.common.bean;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 import com.timothy.common.config.BlogStatus;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
