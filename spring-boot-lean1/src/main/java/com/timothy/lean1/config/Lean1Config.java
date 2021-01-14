@@ -10,7 +10,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
  * @Version 1.0
  */
 @Configuration
-@EnableAspectJAutoProxy
+//@EnableAspectJAutoProxy
 public class Lean1Config {
 
 }

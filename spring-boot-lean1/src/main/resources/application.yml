@@ -7,3 +7,5 @@ spring:
     name: spring-boot-lean
   profiles:
     active: '@profiles.active@'
+  thymeleaf:
+    cache: false

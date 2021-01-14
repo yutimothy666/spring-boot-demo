@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>qrCode</title>
+    <style>
+        .container {
+            position: relative;
+        }
+
+        .container > div {
+            width: 300px;
+            height: 300px;
+            position: absolute;
+        }
+
+        #qrCode {
+            z-index: 2;
+        }
+
+        .loader {
+            background-color: rgba(22, 22, 132, 0.8);
+            text-align: center;
+            line-height: 300px;
+            font-size: 30px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+<h1>index</h1>
+<div class="container">
+    <div id="qrCode">
+    </div>
+    <div class="loader">
+        扫描二维码完成
+    </div>
+</div>
+
+<script th:src="@{/js/qrcode.js}"></script>
+<script src="/static/js/AJAX.js" th:src="@{/js/AJAX.js}"></script>
+
+<script th:inline="javascript">
+    let qrId = [[${qrId}]];
+    new QRCode(document.querySelector("#qrCode"), "http://192.168.0.197:9092/login?qrId=" + qrId);
+    setInterval(function () {
+        if (Number(getQrCodeStatus()) === "1") {
+            let loader = document.querySelector("div.loader");
+            console.log(loader);
+            loader.setAttribute("z-index", "100");
+        }
+    }, 1000);
+
+    async function getQrCodeStatus() {
+        let request = await Request.post("/qrCode/status");
+        return request.data
+    }
+</script>
+</body>
+</html>
