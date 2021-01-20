@@ -11,6 +11,7 @@
     <modules>
         <module>spring-boot-lean1</module>
         <module>spring-boot-common</module>
+        <module>api-demo-vue01</module>
     </modules>
     <properties>
         <spring.boot.version>2.3.4.RELEASE</spring.boot.version>

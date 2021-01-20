@@ -210,10 +210,10 @@
     <springProfile name="dev">
         <logger name="com.timothy.logger.BlogLog" level="INFO" additivity="false">
             <appender-ref ref="CONSOLE"/>
-            <appender-ref ref="blogLog"/>
+            <!--            <appender-ref ref="blogLog"/>-->
         </logger>
 
-        <root level="debug">
+        <root level="info">
             <appender-ref ref="CONSOLE"/>
             <appender-ref ref="DEBUG_FILE"/>
             <appender-ref ref="INFO_FILE"/>

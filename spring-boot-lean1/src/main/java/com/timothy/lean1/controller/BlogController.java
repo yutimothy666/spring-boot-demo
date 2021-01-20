@@ -27,7 +27,6 @@ public class BlogController {
     @Resource
     TestService testService;
 
-
     @RequestMapping(value = {"", "/"})
     public AjaxResults<List<BlogInfo>> listTest(BlogInfo blogInfo) throws IllegalAccessException {
         testService.test();
