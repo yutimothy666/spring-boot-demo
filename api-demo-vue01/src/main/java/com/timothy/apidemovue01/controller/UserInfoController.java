@@ -24,9 +24,11 @@ public class UserInfoController {
     @Resource
     UserInfoRepository userInfoRepository;
 
-    @RequestMapping(value = "")
+    @RequestMapping(value = "/")
     public AjaxResults<List<UserInfo>> list(UserInfo userInfo) {
-        IntStream.range(1,10).forEach( i-> userInfoRepository.save(UserInfo.builder().id((long) i).email(i + "qq.com").password(UUID.randomUUID().toString().substring(1, 10)).build()));
+        if (userInfoRepository.findAll().size() <= 1) {
+            IntStream.range(1, 10).forEach(i -> userInfoRepository.save(UserInfo.builder().id((long) i).email(i + "qq.com").password(UUID.randomUUID().toString().substring(1, 10)).build()));
+        }
         Example<UserInfo> example = Example.of(userInfo);
         return AjaxResults.success(userInfoRepository.findAll(example));
     }
